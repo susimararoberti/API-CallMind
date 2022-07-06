@@ -1,0 +1,57 @@
+{
+  "users": [
+    {
+      "email": "rogerio@email.com",
+      "password": "$2a$10$.rt2TCYEAWjXk0dl2v9DbuDrRbWexEBAxVfE45b4M0K.vsmLUSpxy",
+      "name": "Rogerio Alves Cardoso",
+      "type": "psicologo",
+      "registration": "2123",
+      "id": 3
+    },
+    {
+      "email": "julia@email.com",
+      "password": "$2a$10$UD7X7cPsRZNQ/Pbjz3vohu2M..GJa3inJDfkjfHZJggNriB84QSYO",
+      "name": "Julia Albuquerque Correia",
+      "type": "paciente",
+      "registration": "",
+      "id": 6
+    }
+  ],
+  "patients": [
+    {
+      "userId": 6,
+      "name": "Julia Albuquerque Correia",
+      "img": "https://www.attendit.net/images/easyblog_shared/July_2018/7-4-18/totw_network_profile_400.jpg",
+      "age": 32,
+      "status": "casado",
+      "schooling": "Ensino Superior",
+      "profession": "Auxiliar Administrativo",
+      "complaint": "Desânimo, irritabilidade e sensação de pânico",
+      "medication": "Captopril",
+      "disease": "",
+      "medical_records": [
+        {
+          "date": "06/07/2022",
+          "description": "Paciente relata muito des}animo com a vida de modo geral, também que constuma irritar-se fácil e por motivos diferentes e que em certos locais chega ter sensação de pânico como se algo ruim fosse acontecer. Nesta primeira anamnese, verificou-se que a paciente apresenta sentimento de abandono devido ao falecimento precoce de seu progenitor ainda na sua adolescência.",
+          "psychologist": "Rogerio Alves Cardoso"
+        }
+      ],
+      "calendar": [],
+      "id": 1
+    }
+  ],
+  "psychologists": [
+    {
+      "userId": 3,
+      "name": "Rogerio Alves Cardoso",
+      "img": "https://www.attendit.net/images/easyblog_shared/July_2018/7-4-18/totw_network_profile_400.jpg",
+      "emphasis": "Psicologia Clínica com ênfase em psicanalise",
+      "experience": "5 anos",
+      "schedules": "8:00 - 12:00",
+      "working_days": "Seg/Qua/Sex",
+      "patients": [],
+      "calendar": [],
+      "id": 1
+    }
+  ]
+}
