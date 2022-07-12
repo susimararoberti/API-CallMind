@@ -1,57 +1,265 @@
 {
   "users": [
     {
-      "email": "rogerio@email.com",
-      "password": "$2a$10$.rt2TCYEAWjXk0dl2v9DbuDrRbWexEBAxVfE45b4M0K.vsmLUSpxy",
-      "name": "Rogerio Alves Cardoso",
+      "email": "elizabeth@email.com",
+      "password": "$2a$10$s7/1vicdW9ZAAzx7q64.r.3VrroP9g1BsAJvSiVJUwqxR8Y8LVQiS",
+      "name": "Elizabeth Sales",
       "type": "psicologo",
-      "registration": "2123",
+      "registration": "1234",
+      "first_login": true,
+      "id": 1
+    },
+    {
+      "email": "alberto@email.com",
+      "password": "$2a$10$vWNtVruHBqjSK.4YvLNogOhpLjfWrbJXfYeCtDgeqyBhaVuXHQ5mi",
+      "name": "Alberto Dutra",
+      "type": "psicologo",
+      "registration": "2125",
+      "first_login": true,
+      "id": 2
+    },
+    {
+      "email": "vanusa@email.com",
+      "password": "$2a$10$Y7CHlLgkVXiCB6zV69w3n.cEmstEuoNNIxcgn5214MvxycQjkA.pC",
+      "name": "Vanusa Alves",
+      "type": "psicologo",
+      "registration": "3625",
+      "first_login": true,
       "id": 3
     },
     {
-      "email": "julia@email.com",
-      "password": "$2a$10$UD7X7cPsRZNQ/Pbjz3vohu2M..GJa3inJDfkjfHZJggNriB84QSYO",
-      "name": "Julia Albuquerque Correia",
+      "email": "samuel@email.com",
+      "password": "$2a$10$SeoGGLvD15qOmEucQ1fSpO5bCKDxkYMg9r2Ym.6j1wwb9sF8onFrm",
+      "name": "Samuel Pereira",
       "type": "paciente",
       "registration": "",
+      "first_login": true,
+      "id": 4
+    },
+    {
+      "email": "ricardo@email.com",
+      "password": "$2a$10$Oe1mX1ymae3767idbkGkEu8HdtT1YDExl1UYzF322h5JUbVDvz2aG",
+      "name": "Ricardo Moreira",
+      "type": "paciente",
+      "registration": "",
+      "first_login": true,
+      "id": 5
+    },
+    {
+      "email": "isadora@email.com",
+      "password": "$2a$10$T0yBbONhvErH3TtC1iTd1u1bQ/IxirEEMJGf3WHv6e6zbaXxDq5ia",
+      "name": "Isadora Santos",
+      "type": "paciente",
+      "registration": "",
+      "first_login": true,
       "id": 6
+    },
+    {
+      "email": "debora@email.com",
+      "password": "$2a$10$19e/U1w1dA6HHkYtSgzmTO7oQD2x8ausyBHy.8V3K1hEk/cAvt842",
+      "name": "Debora Nogueira",
+      "type": "paciente",
+      "registration": "",
+      "first_login": true,
+      "id": 7
+    },
+    {
+      "email": "regina@email.com",
+      "password": "$2a$10$d3Ccpp0CxX7XcvLcpB77xO8wdKGilLU2y5qG5UU9TN/3HiiFcpyne",
+      "name": "Regina Mattos",
+      "type": "paciente",
+      "registration": "",
+      "first_login": true,
+      "id": 8
     }
   ],
   "patients": [
     {
-      "userId": 6,
-      "name": "Julia Albuquerque Correia",
-      "img": "https://www.attendit.net/images/easyblog_shared/July_2018/7-4-18/totw_network_profile_400.jpg",
-      "age": 32,
+      "userId": 4,
+      "name": "Samuel Pereira Cardoso",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Crystal_Clear_kdm_user_male.svg/1200px-Crystal_Clear_kdm_user_male.svg.png",
+      "age": 35,
       "status": "casado",
-      "schooling": "Ensino Superior",
-      "profession": "Auxiliar Administrativo",
-      "complaint": "Desânimo, irritabilidade e sensação de pânico",
-      "medication": "Captopril",
+      "schooling": "ensino-superior-completo",
+      "profession": "Contador",
+      "complaint": "Falta de sono e desinteresse pela profissão",
+      "medication": "nenhuma",
       "disease": "",
       "medical_records": [
         {
-          "date": "06/07/2022",
-          "description": "Paciente relata muito des}animo com a vida de modo geral, também que constuma irritar-se fácil e por motivos diferentes e que em certos locais chega ter sensação de pânico como se algo ruim fosse acontecer. Nesta primeira anamnese, verificou-se que a paciente apresenta sentimento de abandono devido ao falecimento precoce de seu progenitor ainda na sua adolescência.",
-          "psychologist": "Rogerio Alves Cardoso"
+          "date": "08/07/2022",
+          "description": "Paciente relata insônia constantes e queda no interesse por sua profissão que, outrora amava exercer. Em primeira entrevista de anamnese verificou-se que o paciente divide atividades com uma colega que apresenta-se hostil na maior parte do tempo. Inicado o tratamento para auxiliar o mesmo a entender até onde vai sua responsabilidade pelo relacionamento com a colega e onde ele termina.",
+          "psychologist": "Elizabeth Sales Alcântara"
         }
       ],
       "calendar": [],
       "id": 1
+    },
+    {
+      "userId": 5,
+      "name": "Ricardo Moreira",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Crystal_Clear_kdm_user_male.svg/1200px-Crystal_Clear_kdm_user_male.svg.png",
+      "age": 20,
+      "status": "solteiro",
+      "schooling": "ensino-medio-completo",
+      "profession": "estudante",
+      "complaint": "Sensação de vazio, vontade de ficar só em casa, falta de apetite.",
+      "medication": "nenhuma",
+      "disease": "",
+      "medical_records": [
+        {
+          "date": "",
+          "description": "",
+          "psychologist": ""
+        }
+      ],
+      "calendar": [],
+      "id": 2
+    },
+    {
+      "userId": 6,
+      "name": "Isadora Santos fagundes",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+      "age": 27,
+      "status": "solteiro",
+      "schooling": "curso-tecnico",
+      "profession": "Técnica Administrativa",
+      "complaint": "Vontade de ficar dormindo o dia todo, sensação de insuficiência no trabalho.",
+      "medication": "insulina",
+      "disease": "Diabetes",
+      "medical_records": [
+        {
+          "date": "",
+          "description": "",
+          "psychologist": ""
+        }
+      ],
+      "calendar": [],
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "name": "Debora Nogueira",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+      "age": 46,
+      "status": "viuvo(a)",
+      "schooling": "mestrado",
+      "profession": "Professora Universitária",
+      "complaint": "Desânimo com a vida, solidão e sesnsação de abandono",
+      "medication": "hidroclorotiazida",
+      "disease": "Hipertensão",
+      "medical_records": [
+        {
+          "date": "",
+          "description": "",
+          "psychologist": ""
+        }
+      ],
+      "calendar": [],
+      "id": 4
+    },
+    {
+      "userId": 8,
+      "name": "Regina Mattos Siqueira",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+      "age": 36,
+      "status": "casado(a)",
+      "schooling": "pos-graduacao",
+      "profession": "Bióloga",
+      "complaint": "Medo de sair de casa, sensação de algo ruim vai acontecer, vontade de desaperecer por uns tempos.",
+      "medication": "",
+      "disease": "",
+      "medical_records": [
+        {
+          "date": "",
+          "description": "",
+          "psychologist": ""
+        }
+      ],
+      "calendar": [],
+      "id": 5
     }
   ],
   "psychologists": [
     {
-      "userId": 3,
-      "name": "Rogerio Alves Cardoso",
-      "img": "https://www.attendit.net/images/easyblog_shared/July_2018/7-4-18/totw_network_profile_400.jpg",
-      "emphasis": "Psicologia Clínica com ênfase em psicanalise",
+      "userId": 1,
+      "name": "Elizabeth Sales Alcântara",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+      "emphasis": "Psicologia Clínica com ênfase em análise comportamental",
       "experience": "5 anos",
+      "schedules": "14:00 - 18:00",
+      "working_days": "Ter/Qua/Qui/Sex",
+      "patients": [
+        {
+          "userId": 4,
+          "name": "Samuel Pereira Cardoso",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Crystal_Clear_kdm_user_male.svg/1200px-Crystal_Clear_kdm_user_male.svg.png",
+          "age": 35,
+          "status": "casado",
+          "schooling": "ensino-superior-completo",
+          "profession": "Contador",
+          "complaint": "Falta de sono e desinteresse pela profissão",
+          "medication": "nenhuma",
+          "disease": "",
+          "medical_records": [
+            {
+              "date": "08/07/2022",
+              "description": "Paciente relata insônia constantes e queda no interesse por sua profissão que, outrora amava exercer. Em primeira entrevista de anamnese verificou-se que o paciente divide atividades com uma colega que apresenta-se hostil na maior parte do tempo. Inicado o tratamento para auxiliar o mesmo a entender até onde vai sua responsabilidade pelo relacionamento com a colega e onde ele termina.",
+              "psychologist": "Elizabeth Sales Alcântara"
+            }
+          ],
+          "calendar": [],
+          "id": 1
+        }
+      ],
+      "calendar": [],
+      "id": 1
+    },
+    {
+      "userId": 2,
+      "name": "Alberto Dutra Rocha",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Crystal_Clear_kdm_user_male.svg/1200px-Crystal_Clear_kdm_user_male.svg.png",
+      "emphasis": "Psicologia Clínica com ênfase em Terapia Cognitivo Comportamental",
+      "experience": "7 anos",
       "schedules": "8:00 - 12:00",
       "working_days": "Seg/Qua/Sex",
       "patients": [],
       "calendar": [],
-      "id": 1
+      "id": 2
+    },
+    {
+      "userId": 3,
+      "name": "Vanusa Alves Dantas",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+      "emphasis": "Psicologia Clínica com ênfase em Terapia de Casal",
+      "experience": "3 anos",
+      "schedules": "18:00 - 22:00",
+      "working_days": "Seg/Qui/Sex",
+      "patients": [
+        {
+          "userId": 6,
+          "name": "Isadora Santos Fagundes",
+          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Crystal_Clear_kdm_user_female.svg/2048px-Crystal_Clear_kdm_user_female.svg.png",
+          "age": 27,
+          "status": "solteiro",
+          "schooling": "curso-tecnico",
+          "profession": "Técnica Administrativa",
+          "complaint": "Vontade de ficar dormindo o dia todo, sensação de insuficiência no trabalho.",
+          "medication": "insulina",
+          "disease": "Diabetes",
+          "medical_records": [
+            {
+              "date": "",
+              "description": "",
+              "psychologist": ""
+            }
+          ],
+          "calendar": [],
+          "id": 3
+        }
+      ],
+      "calendar": [],
+      "id": 3
     }
   ]
 }
