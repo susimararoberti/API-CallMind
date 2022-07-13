@@ -19,7 +19,7 @@
       "id": 2
     },
     {
-      "email": "vanusa@email.com",
+      "email": "calmmind.psicologo@gmail.com",
       "password": "$2a$10$Y7CHlLgkVXiCB6zV69w3n.cEmstEuoNNIxcgn5214MvxycQjkA.pC",
       "name": "Vanusa Alves",
       "type": "psicologo",
@@ -46,7 +46,7 @@
       "id": 5
     },
     {
-      "email": "isadora@email.com",
+      "email": "calmmind.paciente@gmail.com",
       "password": "$2a$10$T0yBbONhvErH3TtC1iTd1u1bQ/IxirEEMJGf3WHv6e6zbaXxDq5ia",
       "name": "Isadora Santos",
       "type": "paciente",
