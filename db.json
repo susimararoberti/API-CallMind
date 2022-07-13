@@ -135,7 +135,8 @@
         }
       ],
       "calendar": {},
-      "id": 3
+      "id": 3,
+      "email": "calmmind.paciente@gmail.com"
     },
     {
       "userId": 7,
@@ -259,7 +260,8 @@
         }
       ],
       "calendar": {},
-      "id": 3
+      "id": 3,
+      "email": "calmmind.psicologo@gmail.com"
     }
   ]
 }
